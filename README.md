@@ -8,7 +8,19 @@ The `box()` is designed to feel similar to the built-in `cube()` module.
 
 For example:
 ```
-box(5, center=true);
+box();
+```
+
+```
+box(2);
+```
+
+```
+box([1,2,3]);
+```
+
+```
+box(size=5, center=true);
 ```
 
 
