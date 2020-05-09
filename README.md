@@ -8,9 +8,29 @@ The `box()` is designed to feel similar to the built-in `cube()` module.
 
 ## Demo
 
-A demo is include in the `demo.scad` file.
+A demo is included with this package, in the `demo.scad` file.
 
 To view the demo, open `demo.scad` in OpenSCAD.
+
+## Usage
+
+To use this package, first checkout this repository into the root of your project, using code similar to:
+```
+git clone https://github.com/reiver/scad-box github.com/reiver/scad-box
+```
+
+This will create the directories:
+
+* `github.com/`
+* `github.com/reiver`
+* `github.com/reiver/scad-box`
+
+And place the OpenSCAD code into that directory.
+
+And then to make use of this code in one of your projects files, add the following `use` statement:
+```
+use <github.com/reiver/scad-box/use.scad>
+```
 
 ## Declaration
 
