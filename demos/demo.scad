@@ -1,4 +1,4 @@
-use <use.scad>
+use <../use.scad>
 
 $fn=50;
 
