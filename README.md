@@ -63,9 +63,9 @@ box(edge_radius=0.2);
 
 ## Demo
 
-A demo is included with this package, in the `demo.scad` file.
+A demo is included with this package, in the `demos/demo.scad` file.
 
-To view the demo, open `demo.scad` in OpenSCAD.
+To view the demo, open `demos/demo.scad` in OpenSCAD.
 
 
 ## Usage
