@@ -16,11 +16,11 @@ module _inner_cube(size = [1,1,1], edge_radius = 0.1) {
 	d =  edge_radius/2;
 
 	translate([d,d,d])
-		cube([size[0] - d*2, size[1] - d*2, size[2] - d*2]);
+		cube([size[0] - d*4, size[1] - d*4, size[2] - d*4]);
 }
 
 // THIS IS AN INTERNAL MODULE, NOT MEANT TO BE USED BY OTHERS.
-module _edge_sphere(edge_radius = 0.1) {
+module _edge_sphere(edge_radius = 2) {
 	d =  edge_radius/2;
 
 	translate([d,d,d])
