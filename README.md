@@ -25,12 +25,22 @@ This will create the directories:
 * `github.com/reiver`
 * `github.com/reiver/scad-box`
 
-And place the OpenSCAD code into that directory.
+And place the OpenSCAD code for this package into that directory.
 
-And then to make use of this code in one of your projects files, add the following `use` statement:
+And then to make use of this code in one of your projects files, add a `use` statement similar to:
 ```
 use <github.com/reiver/scad-box/use.scad>
 ```
+
+Note, if you are in a sub-directory of your project, you may need to climb up directories; for example:
+```
+use <../github.com/reiver/scad-box/use.scad>
+```
+Or:
+```
+use <../../github.com/reiver/scad-box/use.scad>
+```
+Etc.
 
 ## Declaration
 
