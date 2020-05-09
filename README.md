@@ -10,22 +10,22 @@ The `box()` is designed to feel similar to the built-in `cube()` module.
 
 Here are some examples of `box()` being used.
 
-Creates a box with rounded corners, with the _width_, _height_, and _depth_ all equal to 1.
+Creates a box with rounded corners, with the _width_, _height_, and _depth_ all equal to 1, with an edge-radius of 0.1.
 ```
 box();
 ```
 
-Creates a box with rounded corners, with the _width_, _height_, and _depth_ all equal to 5.
+Creates a box with rounded corners, with the _width_, _height_, and _depth_ all equal to 5, with an edge-radius of 0.1.
 ```
 box(5);
 ```
 
-Creates a box with rounded corners, with the _width_, _height_, and _depth_ equal to 1, 2, and 3 respectively.
+Creates a box with rounded corners, with the _width_, _height_, and _depth_ equal to 1, 2, and 3 respectively, with an edge-radius of 0.1.
 ```
 box([1,2,3]);
 ```
 
-Creates a box with rounded corners, with the _width_, _height_, and _depth_ all equal to 1, centered on the origin.
+Creates a box with rounded corners, with the _width_, _height_, and _depth_ all equal to 1, with an edge-radius of 0.1, centered on the origin.
 ```
 box(center=true);
 ```
