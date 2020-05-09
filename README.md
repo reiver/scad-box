@@ -6,6 +6,12 @@ It does this by exposing a `box()` module.
 
 The `box()` is designed to feel similar to the built-in `cube()` module.
 
+## Declaration
+
+```
+module box(size = [1,1,1], center = false, edge_radius = 0.1)
+```
+
 ## Examples
 
 Here are some examples of `box()` being used.
