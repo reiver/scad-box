@@ -6,6 +6,12 @@ It does this by exposing a `box()` module.
 
 The `box()` is designed to feel similar to the built-in `cube()` module.
 
+## Demo
+
+A demo is include in the `demo.scad` file.
+
+To view the demo, open `demo.scad` in OpenSCAD.
+
 ## Declaration
 
 ```
