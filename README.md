@@ -6,6 +6,11 @@ It does this by exposing a `box()` module.
 
 The `box()` is designed to feel similar to the built-in `cube()` module.
 
+For example:
+```
+box(5, center=true);
+```
+
 ## Demo
 
 A demo is included with this package, in the `demo.scad` file.
