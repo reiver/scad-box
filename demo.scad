@@ -2,4 +2,7 @@ use <use.scad>
 
 $fn=50;
 
-box(center=true);
+dim = 3;
+centered = true;
+
+color("grey") box(size=dim, center=centered);
